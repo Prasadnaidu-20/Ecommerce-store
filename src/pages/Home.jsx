@@ -46,7 +46,7 @@ const Home = () => {
     </div>
     <div className='container' style={{display:'flex',flexWrap:'wrap',gap:'20px'} }>
             {products.map((product)=>{
-                return <ProductCard key={product.id} id={product.id} title={product.title} image={product.image} price={product.price}/>
+                return <ProductCard key={product.id} image={product.image} id={product.id} title={product.title}  price={product.price}/>
             })}
         
     </div>
